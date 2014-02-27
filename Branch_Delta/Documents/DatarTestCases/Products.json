@@ -1,0 +1,45 @@
+{ "products": [{
+	"equipment": [{
+		"code": "31af",
+		"name": "Troll Box",
+		"unitPrice": "7"
+		}],
+
+	"consultation": [{
+		"code": "111b",
+		"name": "Suzuki",
+		"hourPrice": "169.0",
+
+			"consultant": {
+				"id": "6Gd10",
+				"firstName": "Suzuki",
+				"lastName": "Busa",
+
+					"address": {
+						"street": "123 Fast Street",
+						"city": "Los Metro,
+						"state": "CA",
+						"zip": "999999",
+						"country": "USA"
+					}, 
+
+					"emails": [		
+					"email": "N/A"
+					]
+				}
+			}],
+
+	"licens": [{
+		"code": "6671",
+		"name": "Untrust SSL Certification",
+		"price": "120.00",
+		"annualPrice": "75.00"
+		}],
+
+	"equipment": [{
+		"code": "7777",
+		"name": "Quantum Teleporter",
+		"unitPrice": "999917"
+		}],
+	}]
+}

@@ -1,0 +1,63 @@
+{ "customers": [{
+	"govInfo": [{
+		"code": "C001",
+		"name": "THE WORLDS BEST GOVERNMENT COMPANY",
+
+		"address": {
+			"street": "123 Over There",
+			"city": "Trolledgiston",
+			"state": "AA",
+			"zip": "012301",
+			"country": "LULZ"
+		},
+
+		"humanRep": {
+			"id": "4a9g",
+			"firstName": "Derp",
+			"lastName": "Herp",
+		
+			"address": {
+				"street": "7777 Sideways Trolled St.",
+				"city": "Trolledgiston",
+				"state": "AA",
+				"zip": "012301",
+				"country": "LULZ"
+			}, 
+
+			"emails": [			
+				"email": "derp@trolled.us"
+			]
+		}
+	}],
+
+	"companyInfo": [{
+		"code": "C002",
+		"name": "Generic Buyings",
+
+		"address": {
+			"street": "100 General Street",
+			"city": "Polis",
+			"state": "FF",
+			"zip": "222222",
+			"country": "ZZZ"
+		},
+
+		"humanRep": {
+			"id": "xyz7",
+			"firstName": "Generic",
+			"lastName": "Name", 
+
+			"address": {
+				"street": "117 Main Street",
+				"city": "Polis,
+				"state": "FF",
+				"zip": "111111",
+				"country": "ZZZ"
+			}, 
+
+			"emails": [			
+				"email": "gmail@generic.person.com"
+			]
+		}
+	}]
+}}	

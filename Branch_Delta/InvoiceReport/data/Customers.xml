@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:customers xmlns:ns2="unl.cse">
+    <govInfo>
+        <humanRep>
+            <id>231</id>
+            <firstName>Baker</firstName>
+            <lastName>Tom</lastName>
+            <address>
+                <street>1 Blue Jays Way</street>
+                <city>Toronto</city>
+                <state>ON</state>
+                <zip>M5V 1J1</zip>
+                <country>Canada</country>
+            </address>
+            <emails>
+                <email>famousdoc@who.com</email>
+                <email>tbaker@cse.unl.edu</email>
+                <email>mostfamous@whovian.com</email>
+                <email>thedoctor@bbc.com</email>
+            </emails>
+        </humanRep>
+        <address>
+            <street>259 Avery Hall</street>
+            <city>Lincoln</city>
+            <state>NE</state>
+            <zip>68588-0115</zip>
+            <country>USA</country>
+        </address>
+        <code>C001</code>
+        <name>University of Nebraska-Lincoln</name>
+    </govInfo>
+    <govInfo>
+        <humanRep>
+            <id>321f</id>
+            <firstName>Fox</firstName>
+            <lastName>Bud</lastName>
+            <address>
+                <street>321 Bronx Street</street>
+                <city>New York</city>
+                <state>NY</state>
+                <zip>10004</zip>
+                <country>USA</country>
+            </address>
+            <emails>
+                <email>bfox@gmail.com</email>
+                <email>csheen@crazy.net</email>
+            </emails>
+        </humanRep>
+        <address>
+            <street>9800 Savage Rd</street>
+            <city>Fort Meade</city>
+            <state>MD</state>
+            <zip>20755</zip>
+            <country>USA</country>
+        </address>
+        <code>C004</code>
+        <name>National Security Administration</name>
+    </govInfo>
+    <companyInfo>
+        <humanRep>
+            <id>944c</id>
+            <firstName>Castro</firstName>
+            <lastName>Starlin</lastName>
+            <address>
+                <street>1060 West Addison Street</street>
+                <city>Chicago</city>
+                <state>IL</state>
+                <zip>60613</zip>
+                <country>USA</country>
+            </address>
+            <emails>
+                <email>scastro@cubs.com</email>
+                <email>starlin_castro13@gmail.com</email>
+            </emails>
+        </humanRep>
+        <address>
+            <street>184 Marvel Way</street>
+            <city>New York</city>
+            <state>NY</state>
+            <zip>10453</zip>
+            <country>USA</country>
+        </address>
+        <code>C002</code>
+        <name>Stark Industries</name>
+    </companyInfo>
+    <companyInfo>
+        <humanRep>
+            <id>306a</id>
+            <firstName>Sampson</firstName>
+            <lastName>Brock</lastName>
+            <address>
+                <street>123 N 1st Street</street>
+                <city>Omaha</city>
+                <state>NE</state>
+                <zip>68116</zip>
+                <country>USA</country>
+            </address>
+            <emails>
+                <email>brock_f_sampson@gmail.com</email>
+                <email>bsampson@venture.com</email>
+            </emails>
+        </humanRep>
+        <address>
+            <street>123 Venture Way</street>
+            <city>Culver City</city>
+            <state>CA</state>
+            <zip>90230</zip>
+            <country>USA</country>
+        </address>
+        <code>C003</code>
+        <name>Venture Industries</name>
+    </companyInfo>
+    <companyInfo>
+        <humanRep>
+            <id>bbchar</id>
+            <firstName>Ehrmantraut</firstName>
+            <lastName>Kaylee</lastName>
+            <address>
+                <street>800 West 7th Street</street>
+                <city>Albuquerque</city>
+                <state>NM</state>
+                <zip>87105</zip>
+                <country>USA</country>
+            </address>
+            <emails>
+                <email>N/A</email>
+            </emails>
+        </humanRep>
+        <address>
+            <street>1060 West Addison</street>
+            <city>Chicago</city>
+            <state>IL</state>
+            <zip>60601</zip>
+            <country>USA</country>
+        </address>
+        <code>C005</code>
+        <name>Vandelay Industries</name>
+    </companyInfo>
+    <companyInfo>
+        <humanRep>
+            <id>321dr</id>
+            <firstName>Baker</firstName>
+            <lastName>C.</lastName>
+            <address>
+                <street>Avery Hall</street>
+                <city>Lincoln</city>
+                <state>NE</state>
+                <zip>68503</zip>
+                <country>USA</country>
+            </address>
+            <emails>
+                <email>dr@baker.com</email>
+            </emails>
+        </humanRep>
+        <address>
+            <street>456 West 7th St.</street>
+            <city>Omaha</city>
+            <state>NE</state>
+            <zip>68500</zip>
+            <country>USA</country>
+        </address>
+        <code>C006</code>
+        <name>Mr. Smith's #1 Supply Co. Inc.</name>
+    </companyInfo>
+</ns2:customers>

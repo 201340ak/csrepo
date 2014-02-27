@@ -1,0 +1,73 @@
+{
+  "personsList": [
+    {
+      "id": "4a9g",
+      "firstName": "Derp",
+      "lastName": "Herp",
+      "emailsList": [
+        " derp@trolled.us"
+      ],
+      "addressList": [
+        {
+          "street": "7777 Sideways Trolled St.",
+          "city": "Trolledgiston",
+          "state": "AA",
+          "zip": "012301",
+          "country": "LULZ"
+        }
+      ]
+    },
+    {
+      "id": "dAra9",
+      "firstName": "Sam",
+      "lastName": "Dawu",
+      "emailsList": [
+        " sam@dawus.com",
+        " samForgotPasscode@dawus.com"
+      ],
+      "addressList": [
+        {
+          "street": "1245 dawuuu Ave.",
+          "city": "Kansas City",
+          "state": "KS",
+          "zip": "132677",
+          "country": "USA"
+        }
+      ]
+    },
+    {
+      "id": "6Gd10",
+      "firstName": "Suzuki",
+      "lastName": "Busa",
+      "emailsList": [
+        "N/A"
+      ],
+      "addressList": [
+        {
+          "street": "123 Fast Street",
+          "city": "Los Metro",
+          "state": "CA",
+          "zip": "999999",
+          "country": "USA"
+        }
+      ]
+    },
+    {
+      "id": "xyz7",
+      "firstName": "Generic",
+      "lastName": "Name",
+      "emailsList": [
+        " gmail@generic.person.com"
+      ],
+      "addressList": [
+        {
+          "street": "117 Main Street",
+          "city": "Polis",
+          "state": "FF",
+          "zip": "111111",
+          "country": "ZZZ"
+        }
+      ]
+    }
+  ]
+}

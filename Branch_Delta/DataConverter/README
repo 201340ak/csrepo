@@ -1,0 +1,8 @@
+The DatarConverter directory can be imported to eclipse.
+This is considered Phase 1 of the project.
+
+Purpose:
+Read old data files and convert them into XML and JSON.
+
+~ Jake,
+repo admin

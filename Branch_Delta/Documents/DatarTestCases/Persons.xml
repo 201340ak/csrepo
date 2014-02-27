@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:root xmlns:ns2="unl.cse">
+    <people>
+        <person>
+			<id>4a9g</id>
+			<firstName>Derp</firstName>
+			<lastName>Herp</lastName>
+			<address>
+				<street>7777 Sideways Trolled St.</street>
+				<city>Trolledgiston</city>
+				<state>AA</state>
+				<zip>012301</zip>
+				<country>LULZ</country>
+			</address>
+			<emails>
+				<email>derp@trolled.us</email>
+			</emails>
+		</person>
+    	<person>
+			<id>dAra9</id>
+			<firstName>Sam</firstName>
+			<lastName>Dawu</lastName>
+			<address>
+				<street>1245 dawuuu Ave.</street>
+				<city>Kansas City</city>
+				<state>KS</state>
+				<zip>132677</zip>
+				<country>USA</country>
+			</address>
+			<emails>
+				<email>sam@dawus.com</email>
+				<email>samForgotPasscode@dawus.com</email>
+			</emails>
+		</person>
+        <person>
+			<id>6Gd10</id>
+			<firstName>Suzuki</firstName>
+			<lastName>Busa</lastName>
+			<address>
+				<street>123 Fast Street</street>
+				<city>Los Metro</city>
+				<state>CA</state>
+				<zip>999999</zip>
+				<country>USA</country>
+			</address>
+			<emails>
+				<email>N/A</email>
+			</emails>
+		</person>
+        <person>
+			<id>xyz7</id>
+			<firstName>Generic</firstName>
+			<lastName>Name</lastName>
+			<address>
+				<street>117 Main Street</street>
+				<city>Polis</city>
+				<state>FF</state>
+				<zip>111111</zip>
+				<country>ZZZ</country>
+			</address>
+			<emails>
+				<email>gmail@generic.person.com</email>
+			</emails>
+		</person>
+	</people>
+</ns2:root>

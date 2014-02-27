@@ -1,0 +1,329 @@
+\documentclass[]{article}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\usepackage{fancyhdr}
+\usepackage{multirow}
+\usepackage{longtable}
+\usepackage[margin=1.0in]{geometry}
+\usepackage{color}
+\usepackage{xcolor,colortbl}
+\newcommand{\mc}[2]{\multicolumn{#1}{c}{#2}}
+\definecolor{Gray}{gray}{0.85}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\newcolumntype{a}{>{\columncolor{Gray}}c}
+\newcolumntype{b}{>{\columncolor{white}}c}
+
+\usepackage{titlesec}
+\titleformat*{\section}{\color{red}\LARGE\bfseries}
+\titleformat*{\subsection}{\color{blue}\Large\bfseries}
+
+\usepackage{hyperref}
+\usepackage{xcolor}
+\hypersetup{
+    pdfborderstyle={/S/U/W 0.1}
+    colorlinks,
+    linkcolor = black,
+    linkbordercolor = blue
+}
+
+\pagestyle{fancy}
+\cfoot{Technical Design Document | Page \thepage}
+\begin{document}
+	\begin{titlepage}
+		\begin{center}
+
+		% ----------
+		% TITLE PAGE
+		% ----------
+
+		\textsc{\LARGE CSCE 156 Project}\\[1.5 cm]
+		
+		\HRule \\[0.5cm]
+		
+		{ \huge \bfseries CCC Invoice System Documentation \\[0.5cm] }
+
+		\HRule \\[1.5cm]
+
+			\begin{minipage}{0.5\textwidth}
+				\begin{flushleft} \large
+				
+				\emph{Student:}\\
+				Jacob \textsc{Charles}\linebreak
+				Alexis \textsc{Kennedy}
+				
+				\end{flushleft}
+			\end{minipage}
+			\begin{minipage}{0.4\textwidth}
+				\begin{flushright}\large
+
+					\emph{Version: 0.1.0} \\
+					February 6th, 2014
+				
+				\end{flushright}
+			\end{minipage}
+
+		\vfill
+		\HRule \\[0.2cm]
+		{\large Document describing \emph{CCC} System design implementing an 
+		\linebreak \linebreak Invoice Manager.}
+
+		\end{center}
+	\end{titlepage}
+
+	% ---------
+	% REVISIONS
+	% ---------
+	
+	\begin{table} \centering
+		\begin{tabular}{|l|l|l|l|}
+			
+			\multicolumn{4}{c}{\LARGE \textbf{Revisions and Updates}} \\
+				
+			\hline
+			& & & \\
+			\textbf{Version} & \textbf{Description} & \textbf{Author(s)} & \textbf{Date} \\ 
+			\hline
+			
+			\multirow{4}{*}{\emph{0.1.0}} 
+			& & & \\
+			& Data converter between old system to & Jacob Charles & 02-13-2013 \\
+			& new readable system format (XML/JSON) & Alexis Kennedy & \\
+			& & & \\
+			\hline
+	
+			\multirow{4}{*}{\emph{0.2.0}}
+				
+			& & & \\
+			& Data Summary Return & Jacob Charles & N/A \\
+			& & Alexis Kennedy & \\
+			& & & \\
+			\hline
+				
+			\multirow{4}{*}{\emph{0.3.0}} 
+				
+			& & & \\
+			& Database creation for Object data & Jacob Charles & N/A \\
+			& & Alexis Kennedy & \\
+			& & & \\
+			\hline
+				
+			\multirow{4}{*}{\emph{0.4.0}} 
+
+			& & & \\
+			& API for Object databases & Jacob Charles & N/A \\
+			& & Alexis Kennedy & \\
+			& & & \\
+			\hline
+				
+			\multirow{4}{*}{\emph{0.5.0}} 
+				
+			& & & \\
+			& Data organization and sorting for & Jacob Charles & N/A \\
+			& portfolio database & Alexis Kennedy & \\
+			& & & \\
+			\hline
+
+			\multirow{4}{*}{\emph{0.6.0}} 
+				
+			& & & \\
+			& TBD & Jacob Charles & N/A \\
+			& & Alexis Kennedy & \\
+			& & & \\
+			\hline
+				
+			\multirow{4}{*}{\emph{1.0.0}} 
+
+			& & & \\
+			& Release for version one of CCC Finance & Jacob Charles & N/A \\
+			& Invoice Manager system & Alexis Kennedy & \\
+			& & & \\
+			\hline
+				
+		\end{tabular}
+	\end{table}
+	\textit{Note: Bug updates will not be included in this log!}
+	\vfill	
+	
+	%
+	% TABLE OF CONTENTS
+	%
+
+	\newpage
+	\tableofcontents
+	\newpage
+	
+	%
+	% SECTION 1 - INTRODUCTION
+	%
+	
+	\section{Introduction}
+	\HRule \\[0.5cm]
+	\textit{Project notes, and information to better understand the document.}
+	
+	%
+	% SUBSECTION 1.1 - DOCUMENT PURPOSE
+	%
+	
+	\subsection{Document Purpose}
+	\HRule \\[0.5cm]
+	The purpose of this document is show an overview the technical design of the Cinco
+	Computer Consultants (CCC) Invoice System. \\ Main points:
+	\begin{itemize}
+  		\item Inform the link of the functional requirements and detailed Technical Design 
+  		Document
+  		\item Show the functionality of each component, and show the relationships between 
+  		entities of components along with their grouping
+  		\item Provide the framework of the development process and design
+	\end{itemize}
+	This document is intended for the technical minded person. Over time the document will
+	be updated as the development process progresses. Each major, and minor update will be 
+	noted. However, bug fixes will not be included. Note that software version 
+	\emph{x.x.x} is sorted as \emph{Major.Minor.bug} patches.  
+	
+	%
+	% SUBSECTION 1.2 - SCOPE
+	%
+	
+	\subsection{Project Scope}
+	\HRule \\[0.5cm]
+	Cinco Computer Consultants provides various products to companies. An invoice system 
+	to support the business model will be designed by the principals and guidelines as 
+	stated by the document.
+	
+	%
+	% SUBSECTION 1.3 - ACRONYMS, ABBREVIATIONS, TERMS AND DEFINITIONS
+	%
+	
+	\subsection{Acronyms, Abbreviations, and Terms}
+	\HRule \\[0.5cm]
+	%Please keep the terms in alphabetical order!
+	\begin{longtable}{|l|l|}			
+		\multicolumn{2}{c}{\LARGE \textbf{Definitions}} \\
+			
+		\hline
+		& \\
+		\textbf{Term} & \textbf{Value} \\
+		& \\
+		\hline
+			
+		& \\
+		\emph{API} & Application Program Interface \\
+		& \\
+		\hline
+			
+		& \\
+		\emph{CCC} & Cinco Computer Consultants \\
+		& \\
+		\hline
+			
+		& \\
+		\emph{JSON} & JavaScript Object Notation \\
+		& \\
+		\hline
+			
+		& \\
+		\emph{SQL} & Structured Query Language \\
+		& \\			
+		\hline
+			
+		& \\
+		\emph{UML} & Unified Modelling Language \\
+		& \\
+		\hline
+			
+		& \\
+		\emph{XML} & Extensible Markup Language \\
+		& \\
+		\hline
+			
+	\end{longtable}
+	
+
+	%
+	% SUBSECTION 1.4 - DOCUMENT ORGANIZATION
+	%
+	
+	\subsection{Document Organization}
+	\HRule \\[0.5cm]
+	For organization, this document has been split into the following:
+	\begin{longtable}{|l|l|}			
+		\multicolumn{2}{c}{\LARGE \textbf{Sections}} \\
+			
+		\hline
+		& \\
+		\textbf{Section Name} & \textbf{Description} \\
+		& \\
+		\hline
+		
+		& \\
+		\emph{Introduction} & Project notes, and information to better understand the 
+		document \\
+		& \\
+		\hline
+		
+	\end{longtable}
+	
+	%
+	% SECTION 2 - DESIGN OVERVIEW
+	%
+	
+	\newpage
+	\section{Design Overview}
+
+	%
+	% SUBSECTION 2.1 - APPROACH
+	%
+	
+	\subsection{Approach}
+
+	%
+	% SUBSECTION 2.2 - ARCHITECTURAL GOALS AND CONSTRAINTS
+	%
+	
+	\subsection{Architectural Goals and Constraints}
+
+	%
+	% SUBSECTION 2.3 - DESIGN PRINCIPLES
+	%
+	
+	\subsection{Design Principles}
+
+	%
+	% SECTION 3 - DATABASE DESIGN
+	%
+	
+	\newpage
+	\section{Database Design}
+
+	%
+	% SUBSECTION 3.1 - ENTITY RELATION MODEL
+	%
+	
+	\subsection{Entity Relation Model}
+
+	%
+	% SUBSECTION 3.2 - TABLES
+	%
+	
+	\subsection{Tables}
+
+	%
+	% SUBSECTION 3.3 - REPORTING SOLUTION
+	%
+	
+	\subsection{Reporting Solution}
+
+	%
+	% SECTION 4 - OBJECT MODEL
+	%
+	
+	\newpage
+	\section{Object Model}
+
+	%
+	% SECTION 5 -DATA STRUCTURE
+	%
+	
+	\newpage
+	\section{Data Structure}
+
+\end{document}

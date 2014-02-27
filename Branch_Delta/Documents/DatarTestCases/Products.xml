@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:root xmlns:ns2="unl.cse">
+	<products>
+		<equipment>
+			<code>31af</code>
+			<name>Troll Box</name>
+			<unitPrice>7</unitPrice>
+		</equipment>
+		<consultation>
+			<code>111b</code>
+			<name>Suzuki</name>
+			<hourPrice>169.0</hourPrice>
+			<consultant>
+				<id>6Gd10</id>
+				<firstName>Suzuki</firstName>
+				<lastName>Busa</lastName>
+				<address>
+					<street>123 Fast Street</street>
+					<city>Los Metro</city>
+					<state>CA</state>
+					<zip>999999</zip>
+					<country>USA</country>
+				</address>
+				<emails>
+					<email>N/A</email>
+				</emails>
+			</consultant>
+		</consultation>
+		<license>
+			<code>6671</code>
+			<name>Untrust SSL Certification</name>
+			<price>120.00</price>
+			<annualPrice>75.00</annualPrice>
+		</license>
+		<equipment>
+			<code>7777</code>
+			<name>Quantum Teleporter</name>
+			<unitPrice>999917</unitPrice>
+		</equipment>
+	</products>
+</ns2:root>

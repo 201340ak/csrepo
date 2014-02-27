@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:products xmlns:ns2="unl.cse">
+    <equipment>
+        <code>b29e</code>
+        <name>Cinco MIDI Organizer</name>
+        <unitPrice>2500.0</unitPrice>
+    </equipment>
+    <equipment>
+        <code>ff23</code>
+        <name>Cinco-Fone</name>
+        <unitPrice>124.99</unitPrice>
+    </equipment>
+    <equipment>
+        <code>fp12</code>
+        <name>Internette Discs</name>
+        <unitPrice>14.99</unitPrice>
+    </equipment>
+    <equipment>
+        <code>1239</code>
+        <name>Cinco Video Cube Playback System</name>
+        <unitPrice>5000.0</unitPrice>
+    </equipment>
+    <consultation>
+        <code>3289</code>
+        <name>Cinco-Fone Training</name>
+        <hourPrice>25.0</hourPrice>
+        <consultant>
+            <id>aef1</id>
+            <firstName>Gekko</firstName>
+            <lastName>Gordon</lastName>
+            <address>
+                <street>1 Wall Street</street>
+                <city>New York</city>
+                <state>NY</state>
+                <zip>10005-0012</zip>
+                <country>USA</country>
+            </address>
+            <emails>
+                <email>N/A</email>
+            </emails>
+        </consultant>
+    </consultation>
+    <consultation>
+        <code>782g</code>
+        <name>Server System Setup</name>
+        <hourPrice>150.0</hourPrice>
+        <consultant>
+            <id>321nd</id>
+            <firstName>Hartnell</firstName>
+            <lastName>William</lastName>
+            <address>
+                <street>1060 West Addison Street</street>
+                <city>Chicago</city>
+                <state>IL</state>
+                <zip>60613</zip>
+                <country>USA</country>
+            </address>
+            <emails>
+                <email>whartnell@doctors.com</email>
+                <email>dr@who.com</email>
+            </emails>
+        </consultant>
+    </consultation>
+    <license>
+        <code>90fa</code>
+        <name>Cinco Long Distance Service</name>
+        <price>2000.0</price>
+        <annualPrice>12000.0</annualPrice>
+    </license>
+    <license>
+        <code>3294</code>
+        <name>Cloud SQL Hosting</name>
+        <price>0.0</price>
+        <annualPrice>35000.0</annualPrice>
+    </license>
+    <license>
+        <code>3295</code>
+        <name>Domain registration</name>
+        <price>350.0</price>
+        <annualPrice>1200.0</annualPrice>
+    </license>
+</ns2:products>

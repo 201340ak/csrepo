@@ -1,0 +1,95 @@
+{
+  "equipList": [
+    {
+      "code": "b29e",
+      "name": "Cinco MIDI Organizer",
+      "unitPrice": 2500.0
+    },
+    {
+      "code": "ff23",
+      "name": "Cinco-Fone",
+      "unitPrice": 124.99
+    },
+    {
+      "code": "fp12",
+      "name": "Internette Discs",
+      "unitPrice": 14.99
+    },
+    {
+      "code": "1239",
+      "name": "Cinco Video Cube Playback System",
+      "unitPrice": 5000.0
+    }
+  ],
+  "consultationList": [
+    {
+      "code": "3289",
+      "name": "Cinco-Fone Training",
+      "hourPrice": 25.0,
+      "consultList": [
+        {
+          "id": "aef1",
+          "firstName": "Gekko",
+          "lastName": "Gordon",
+          "emailsList": [
+            "N/A"
+          ],
+          "addressList": [
+            {
+              "street": "1 Wall Street",
+              "city": "New York",
+              "state": "NY",
+              "zip": "10005-0012",
+              "country": "USA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "782g",
+      "name": "Server System Setup",
+      "hourPrice": 150.0,
+      "consultList": [
+        {
+          "id": "321nd",
+          "firstName": "Hartnell",
+          "lastName": "William",
+          "emailsList": [
+            "whartnell@doctors.com",
+            "dr@who.com"
+          ],
+          "addressList": [
+            {
+              "street": "1060 West Addison Street",
+              "city": "Chicago",
+              "state": "IL",
+              "zip": "60613",
+              "country": "USA"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "liceList": [
+    {
+      "code": "90fa",
+      "name": "Cinco Long Distance Service",
+      "price": 2000.0,
+      "annualPrice": 12000.0
+    },
+    {
+      "code": "3294",
+      "name": "Cloud SQL Hosting",
+      "price": 0.0,
+      "annualPrice": 35000.0
+    },
+    {
+      "code": "3295",
+      "name": "Domain registration",
+      "price": 350.0,
+      "annualPrice": 1200.0
+    }
+  ]
+}

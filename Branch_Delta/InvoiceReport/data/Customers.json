@@ -1,0 +1,204 @@
+{
+  "govList": [
+    {
+      "code": "C001",
+      "name": "University of Nebraska-Lincoln",
+      "humanRepList": [
+        {
+          "id": "231",
+          "firstName": "Baker",
+          "lastName": "Tom",
+          "emailsList": [
+            "famousdoc@who.com",
+            "tbaker@cse.unl.edu",
+            "mostfamous@whovian.com",
+            "thedoctor@bbc.com"
+          ],
+          "addressList": [
+            {
+              "street": "1 Blue Jays Way",
+              "city": "Toronto",
+              "state": "ON",
+              "zip": "M5V 1J1",
+              "country": "Canada"
+            }
+          ]
+        }
+      ],
+      "adrList": [
+        {
+          "street": "259 Avery Hall",
+          "city": "Lincoln",
+          "state": "NE",
+          "zip": "68588-0115",
+          "country": "USA"
+        }
+      ]
+    },
+    {
+      "code": "C004",
+      "name": "National Security Administration",
+      "humanRepList": [
+        {
+          "id": "321f",
+          "firstName": "Fox",
+          "lastName": "Bud",
+          "emailsList": [
+            "bfox@gmail.com",
+            "csheen@crazy.net"
+          ],
+          "addressList": [
+            {
+              "street": "321 Bronx Street",
+              "city": "New York",
+              "state": "NY",
+              "zip": "10004",
+              "country": "USA"
+            }
+          ]
+        }
+      ],
+      "adrList": [
+        {
+          "street": "9800 Savage Rd",
+          "city": "Fort Meade",
+          "state": "MD",
+          "zip": "20755",
+          "country": "USA"
+        }
+      ]
+    }
+  ],
+  "pubList": [
+    {
+      "code": "C002",
+      "name": "Stark Industries",
+      "humanRepList": [
+        {
+          "id": "944c",
+          "firstName": "Castro",
+          "lastName": "Starlin",
+          "emailsList": [
+            "scastro@cubs.com",
+            "starlin_castro13@gmail.com"
+          ],
+          "addressList": [
+            {
+              "street": "1060 West Addison Street",
+              "city": "Chicago",
+              "state": "IL",
+              "zip": "60613",
+              "country": "USA"
+            }
+          ]
+        }
+      ],
+      "adrList": [
+        {
+          "street": "184 Marvel Way",
+          "city": "New York",
+          "state": "NY",
+          "zip": "10453",
+          "country": "USA"
+        }
+      ]
+    },
+    {
+      "code": "C003",
+      "name": "Venture Industries",
+      "humanRepList": [
+        {
+          "id": "306a",
+          "firstName": "Sampson",
+          "lastName": "Brock",
+          "emailsList": [
+            "brock_f_sampson@gmail.com",
+            "bsampson@venture.com"
+          ],
+          "addressList": [
+            {
+              "street": "123 N 1st Street",
+              "city": "Omaha",
+              "state": "NE",
+              "zip": "68116",
+              "country": "USA"
+            }
+          ]
+        }
+      ],
+      "adrList": [
+        {
+          "street": "123 Venture Way",
+          "city": "Culver City",
+          "state": "CA",
+          "zip": "90230",
+          "country": "USA"
+        }
+      ]
+    },
+    {
+      "code": "C005",
+      "name": "Vandelay Industries",
+      "humanRepList": [
+        {
+          "id": "bbchar",
+          "firstName": "Ehrmantraut",
+          "lastName": "Kaylee",
+          "emailsList": [
+            "N/A"
+          ],
+          "addressList": [
+            {
+              "street": "800 West 7th Street",
+              "city": "Albuquerque",
+              "state": "NM",
+              "zip": "87105",
+              "country": "USA"
+            }
+          ]
+        }
+      ],
+      "adrList": [
+        {
+          "street": "1060 West Addison",
+          "city": "Chicago",
+          "state": "IL",
+          "zip": "60601",
+          "country": "USA"
+        }
+      ]
+    },
+    {
+      "code": "C006",
+      "name": "Mr. Smith's #1 Supply Co. Inc.",
+      "humanRepList": [
+        {
+          "id": "321dr",
+          "firstName": "Baker",
+          "lastName": "C.",
+          "emailsList": [
+            "dr@baker.com"
+          ],
+          "addressList": [
+            {
+              "street": "Avery Hall",
+              "city": "Lincoln",
+              "state": "NE",
+              "zip": "68503",
+              "country": "USA"
+            }
+          ]
+        }
+      ],
+      "adrList": [
+        {
+          "street": "456 West 7th St.",
+          "city": "Omaha",
+          "state": "NE",
+          "zip": "68500",
+          "country": "USA"
+        }
+      ]
+    }
+  ]
+}

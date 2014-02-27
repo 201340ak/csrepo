@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:customers xmlns:ns2="unl.cse">
+    <govInfo>
+        <humanRep>
+            <id>4a9g</id>
+            <firstName>Derp</firstName>
+            <lastName>Herp</lastName>
+            <address>
+                <street>7777 Sideways Trolled St.</street>
+                <city>Trolledgiston</city>
+                <state>AA</state>
+                <zip>012301</zip>
+                <country>LULZ</country>
+            </address>
+            <emails>
+                <email> derp@trolled.us</email>
+            </emails>
+        </humanRep>
+        <address>
+            <street>123 Over There</street>
+            <city>Trolledgiston</city>
+            <state>AA</state>
+            <zip>012301</zip>
+            <country>LULZ</country>
+        </address>
+        <code>C001</code>
+        <name>WORLDS BEST GOVERNMENT COMPANY</name>
+    </govInfo>
+</ns2:customers>

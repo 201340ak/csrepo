@@ -1,0 +1,37 @@
+{
+  "govList": [
+    {
+      "code": "C001",
+      "name": "WORLDS BEST GOVERNMENT COMPANY",
+      "humanRepList": [
+        {
+          "id": "4a9g",
+          "firstName": "Derp",
+          "lastName": "Herp",
+          "emailsList": [
+            " derp@trolled.us"
+          ],
+          "addressList": [
+            {
+              "street": "7777 Sideways Trolled St.",
+              "city": "Trolledgiston",
+              "state": "AA",
+              "zip": "012301",
+              "country": "LULZ"
+            }
+          ]
+        }
+      ],
+      "adrList": [
+        {
+          "street": "123 Over There",
+          "city": "Trolledgiston",
+          "state": "AA",
+          "zip": "012301",
+          "country": "LULZ"
+        }
+      ]
+    }
+  ],
+  "pubList": []
+}

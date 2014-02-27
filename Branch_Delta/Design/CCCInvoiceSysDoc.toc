@@ -1,0 +1,15 @@
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}Document Purpose}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Project Scope}{3}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Acronyms, Abbreviations, and Terms}{3}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Document Organization}{4}{subsection.1.4}
+\contentsline {section}{\numberline {2}Design Overview}{5}{section.2}
+\contentsline {subsection}{\numberline {2.1}Approach}{5}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Architectural Goals and Constraints}{5}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Design Principles}{5}{subsection.2.3}
+\contentsline {section}{\numberline {3}Database Design}{6}{section.3}
+\contentsline {subsection}{\numberline {3.1}Entity Relation Model}{6}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Tables}{6}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Reporting Solution}{6}{subsection.3.3}
+\contentsline {section}{\numberline {4}Object Model}{7}{section.4}
+\contentsline {section}{\numberline {5}Data Structure}{8}{section.5}

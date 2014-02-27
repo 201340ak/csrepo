@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:root xmlns:ns2="unl.cse">
+	<customers>
+		<govInfo>
+			<code>C001</code>
+			<type>G</type>
+			<name>WORLDS BEST GOVERNMENT COMPANY</name>
+			<address>
+				<street>123 Over There</street>
+				<city>Trolledgiston</city>
+				<state>AA</state>
+				<zip>012301</zip>
+				<country>LULZ</country>
+			</address>
+			<humanRep>
+				<id>4a9g</id>
+				<firstName>Derp</firstName>
+				<lastName>Herp</lastName>
+				<address>
+					<street>7777 Sideways Trolled St.</street>
+					<city>Trolledgiston</city>
+					<state>AA</state>
+					<zip>012301</zip>
+					<country>LULZ</country>
+				</address>
+				<emails>
+					<email>derp@trolled.us</email>
+				</emails>
+			</humanRep>
+		</govInfo>
+		<companyInfo>
+			<code>C002</code>
+			<type>C</type>
+			<name>Generic Buyings</name>
+			<address>
+				<street>100 General Street</street>
+				<city>Polis</city>
+				<state>FF</state>
+				<zip>222222</zip>
+				<country>ZZZ</country>
+			</address>
+			<humanRep>
+				<id>xyz7</id>
+				<firstName>Generic</firstName>
+				<lastName>Name</lastName>
+				<address>
+					<street>117 Main Street</street>
+					<city>Polis</city>
+					<state>FF</state>
+					<zip>111111</zip>
+					<country>ZZZ</country>
+				</address>
+				<emails>
+					<email>gmail@generic.person.com</email>
+				</emails>
+			</humanRep>
+		</companyInfo>
+	</customers>
+</ns2:root>

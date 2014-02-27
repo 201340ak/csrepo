@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:products xmlns:ns2="unl.cse">
+    <equipment>
+        <code>31af</code>
+        <name>Troll Box</name>
+        <unitPrice>7.0</unitPrice>
+    </equipment>
+    <equipment>
+        <code>7777</code>
+        <name>Quantum Teleportor</name>
+        <unitPrice>999917.0</unitPrice>
+    </equipment>
+    <consultation>
+        <code>111b</code>
+        <name>Suzuki</name>
+        <hourPrice>0.0</hourPrice>
+    </consultation>
+    <license>
+        <code>6671</code>
+        <name>Untrust SSL Certification</name>
+        <price>120.0</price>
+        <annualPrice>75.0</annualPrice>
+    </license>
+</ns2:products>

@@ -1,0 +1,30 @@
+{
+  "equipList": [
+    {
+      "code": "31af",
+      "name": "Troll Box",
+      "unitPrice": 7.0
+    },
+    {
+      "code": "7777",
+      "name": "Quantum Teleportor",
+      "unitPrice": 999917.0
+    }
+  ],
+  "consultationList": [
+    {
+      "code": "111b",
+      "name": "Suzuki",
+      "hourPrice": 0.0,
+      "consultList": []
+    }
+  ],
+  "liceList": [
+    {
+      "code": "6671",
+      "name": "Untrust SSL Certification",
+      "price": 120.0,
+      "annualPrice": 75.0
+    }
+  ]
+}
